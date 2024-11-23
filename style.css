@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+
+.header{
+    display: flex;
+    width: 100%;
+}
+
+
+.logo{
+    width:210px;
+    position: absolute;
+    z-index: 2;
+    background: white;
+}
+
+.nav{
+    /* margin-left: 220px; */
+    top: 20px;
+    width: 224px;
+    position: absolute;
+    background: white;
+}
+
+.navbar-toggler {
+    position: absolute;
+    top: 0px;
+    left: 230px;
+}
+.navbar-nav{
+    height: 100%;
+}
+
+.nav p{
+    padding-left: 20px;
+}
+
+.nav-item{
+    padding-left: 20px;
+    padding-right: 40px;
+}
+.nav-item a:hover{
+    background-color: #F14D72;
+    border: 5px solid #F14D72;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.nav a i{
+    padding-right: 20px;
+}
+.nav a{
+    font-weight: 600;
+}
+
+.search-box{
+    width: 40%;
+}
+.search-box input{
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 70%;
+    margin-top: 20px;
+    margin-left: 320px;
+    height: 30px;
+}
+.fa-search{
+    position: relative;
+    right: 2rem;
+}
+
+.head-icons{
+    position: absolute;
+    right: 5px;
+}
+.head-icons a{
+    margin: .1rem;
+    cursor: pointer;
+}
+.head-icons a i{
+    color: black;
+    font-size: 1.3rem;
+    padding-top: 23px;
+    margin: 1px;
+}
+
+
+
+
+/* Profile */
+
+.profile{
+    padding-left: 220px;
+    background: #e4e4e4e1;
+}
+.profile .hadding h2{
+    padding-left: 230px;
+}
+.pro-main{
+    display: flex;
+    margin-left: 220px;
+}
+
+
+
+/* Pro-Left */
+
+
+
+.pro-left{
+    background: white;
+    width: 250px;
+    padding: 13px 15px;
+    
+}
+.pro-left img{
+    padding: 0 0 9px 19px;
+}
+
+
+.rating{
+    display: flex;
+}
+.rating i{
+    color: #F4C220;
+}
+
+.user-info i{
+    color: #F14D72;
+    padding: 0;
+}
+
+
+.user-info .lang{
+    display: flex;
+    align-items: baseline;
+}
+.user-info .occupation{
+    display: flex;
+    align-items: baseline;
+}
+.user-info .location{
+    display: flex;
+    align-items: baseline;
+}
+
+.keywords{
+    width: 250px;
+}
+
+.keywords .keys{
+    display: flex;
+    flex-wrap: wrap;
+}
+.keys p{
+    font-size: 12px;
+    font-weight: 500;
+    border: 1px solid #f14d7383;
+    background: #f9b8c76d;
+    border-radius: 10px;
+    margin: 3px 4px;
+    padding: 0 4px;
+    color: #F14D72;
+}
+.para{
+    width: 250px;
+}
+
+.pro-left button{
+    padding: 5px 50px;
+    color: white;
+    background: #F14D72;
+}
+
+
+
+
+/* Pro-right */
+
+.pro-right{
+    width: 100%;
+}
+.pro-right .social-media{
+    display: flex;
+    flex-wrap: wrap;
+}
+.social-media .social-box span{
+    display: flex;
+}
+.social-box .num{
+    font-size: 35px;
+    font-weight: 500;
+    padding-left: 15px;
+}
+.social-box i{
+    font-size: 30px;
+    padding-top: 9px;
+    padding-left: 40px;
+    color: #e232d3;
+    z-index: 5;
+}
+.social-box>p{
+    text-align: center;
+    font-weight: 500;
+}
+.social-box{
+    width: 180px;
+    background: white;
+    margin: 5px 30px;
+    border-radius: 20px;
+}
+.social-box:hover{
+    background: #F14D72;
+    color: white;
+}
+.social-box:hover i{
+    font-size: 36px;
+    color: #1905f8;
+    z-index: 6;
+}
+
+.open-insta-acc{
+    background: white;
+    margin: 2px 0 0 5px;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    padding-top: 10px;
+    border-top: 3px solid #F14D72;
+}
+.insta-dp img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 3px solid rgb(255, 0, 255);
+    padding: 1.5px;
+    margin: 35px 30px 0 35px;
+}
+
+.post-follow{
+    display: flex;
+}
+.post-follow p{
+    margin: 3px;
+}
+
+.insta-details .other p{
+    margin-bottom: -4px;
+}
+.share-download span{
+    position: relative;
+    right: -9rem;
+}
+.share-download span a i{
+    color:rgb(248, 45, 207);
+    padding-right: 8px;
+    font-size: 20px;
+}
+
+.first-box{
+    display: flex;
+}
+
+/* .two-boxes{
+    background: white;
+} */
+
+.two-boxes{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.first-box{
+    width: 350px;
+    margin: 5px;
+    height: 200px;
+    background: white;
+}
+.engagement h5{
+    padding: 10px 0 3px 18px;
+}
+.first-box .meter img{
+    width: 150px;
+    height: 180px;
+    padding-top: 35px;
+    /* padding-left: 20px; */
+}
+.second-box{
+    width: 350px;
+    height: 200px;
+    margin: 5px;
+    background: white;
+}
+.second-box h5{
+    padding: 10px 0 3px 18px;
+}
+.second-box img{
+    width: 200px;
+    margin-left: 80px;
+}
+.second-box p{
+    padding-left: 10px;
+}
+
+.my-commercial{
+    background: white;
+    margin: 0 0 0 5px;
+}
+.my-commercial tr th{
+    padding-right: 150px;
+    padding-left: 5px;
+    background: #F14D72;
+}
+
+
+@media (max-width: 600px){
+    .search-box{
+        position: absolute;
+        top: 52px;
+        width: 100%;
+        z-index: 3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .search-box input{
+        width: 80%;
+    }
+    .fa-search{
+        padding-top: 17px;
+    }
+
+    .navbar-toggler {
+        left: 215px;
+        font-size: 20px;
+    }
+
+    .head-icons a i{
+        margin: .5px;
+    }
+    .insta-dp img{
+        margin: 35px 10px 0 10px;
+    }
+    .insta-details .other p{
+        margin-bottom: -7px;
+    }
+}
